@@ -41,16 +41,16 @@ set history=700
 filetype plugin on
 filetype indent on
 
-" 检验中文的双引号
+" check double quotation marks
 set ambiwidth=double
 
-" 正确处理中文的折行和拼接
+" incorrect handle the chinese splicing
 set formatoptions+=mM
 
-" 设置粘贴模式，这样粘贴就不会错位
+" set paste mode, to avoid offset
 " set paste
 
-" 代码补全
+" code comletion
 set completeopt=preview,menu
 " set list
 " set listchars=tab:>-,trail:-
