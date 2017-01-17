@@ -1,0 +1,14 @@
+#=====================================================================================
+# vim 7.4
+#=====================================================================================
+
+1.VIM theme:
+    solarized
+
+2.VIM plugin:
+    ctags, taglist, nerdtree, syntastic, neocomplete, tagbar, cscope...
+
+3.VIM preparation: set the terminal as 256 color
+    apt-get install ncurses-dev
+    vim .bashrc -> export TERM='xterm-256color'
+    vim /etc/vim/vimrc -> set t_Co=256
